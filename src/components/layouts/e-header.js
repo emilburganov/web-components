@@ -197,7 +197,7 @@ class EHeader extends HTMLElement {
 
             <header>
                 <div class="header__container">
-                    <a class="header__logo" href="/">WebComponents.js</a>
+                    <a class="header__logo route" href="/">WebComponents.js</a>
                     <nav class="header__menu">
                         <e-burger-menu></e-burger-menu>
                         <div class="header__nav">
