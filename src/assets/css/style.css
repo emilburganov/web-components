@@ -1,0 +1,80 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    /* Colors */
+    --base-background-color: #1A1A1A;
+    --section-background-color: #242424;
+
+    --base-button-color: #2F2F2F;
+
+    --base-text-color: rgba(240, 255, 255, 0.6);
+    --light-text-color: #BCCCE7;
+
+    --base-border-color: #383838;
+
+    --light-color: rgba(255, 255, 255, 0.85);
+    --danger-color: #B93E3E;
+    --primary-color: #834EE8;
+    --secondary-color: #61EC66;
+    --success-color: #198754;
+}
+
+/* Fonts */
+@font-face {
+    src: url("../fonts/Inter-Regular.ttf");
+    font-family: Inter;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/Inter-Medium.ttf");
+    font-family: Inter;
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/Inter-SemiBold.ttf");
+    font-family: Inter;
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    src: url("../fonts/Inter-Bold.ttf");
+    font-family: Inter;
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* Base styles */
+body {
+    background-color: var(--base-background-color);
+}
+
+.container {
+    max-width: 1300px;
+    height: calc(100vh - 100px);
+    margin: 0 auto;
+    padding: 0 16px;
+    background-color: var(--base-background-color);
+}
+
+@media screen and (max-width: 768px) {
+    .no-scroll {
+        overflow: hidden;
+    }
+}
